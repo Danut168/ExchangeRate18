@@ -1,0 +1,9 @@
+pandas>=2.0.0
+requests>=2.31.0
+urllib3>=2.0.0
+beautifulsoup4>=4.12.0
+python-dateutil>=2.8.2
+pdfminer.six>=20221105
+selenium>=4.15.0
+playwright>=1.40.0
+nest-asyncio>=1.5.0

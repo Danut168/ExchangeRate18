@@ -1,0 +1,76 @@
+name: Run New ETL Pipeline
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write   # ✅ THIS FIXES YOUR ERROR
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # -------------------
+      # Checkout repo
+      # -------------------
+      - name: Checkout repo content
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # -------------------
+      # Setup Python
+      # -------------------
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # -------------------
+      # Install dependencies
+      # -------------------
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install playwright openpyxl
+          playwright install --with-deps
+
+      # -------------------
+      # Run ETL script
+      # -------------------
+      - name: Run many countries
+        run: python Exchange_USD_to_other_currency.py
+
+      # -------------------
+      # Debug
+      # -------------------
+      - name: Debug Excel changes
+        run: |
+          ls -lh
+          echo "Checking git status..."
+          git status
+
+      # -------------------
+      # Commit if changed
+      # -------------------
+      - name: Commit updated csv
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add ManyExchangeRates.csv
+
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Update exchange rates"
+            git fetch origin main
+            git pull --rebase origin main
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+            
+            echo "csv updated and pushed."
+          else
+            echo "No changes to commit"
+          fi
