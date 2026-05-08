@@ -689,7 +689,7 @@ Saudi Arabia,3.75,riyal,https://www.imf.org/external/np/fin/data/rms_mth.aspx?Se
 Singapore,1.2739,dollar,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-06,2026-05-07,IMF,Mid-point
 Thailand,32.457,baht,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-06,2026-05-07,IMF,Mid-point
 Hong Kong,783.575,HKD,https://www.hkab.org.hk/en/rates/exchange-rates,2026-05-06,2026-05-07,The Hong Kong Association of Banks,"buy, sell"
-Cambodia,4008,KHR,https://www.tax.gov.kh/en/exchange-rate?for_year=2026&for_month=05,2026-05-06,2026-05-07,National Bank of Cambodia,Official Rate Riel
+Cambodia,4008.0,KHR,https://www.tax.gov.kh/en/exchange-rate?for_year=2026&for_month=05,2026-05-06,2026-05-07,National Bank of Cambodia,Official Rate Riel
 Lao,21952.5,LAK,https://www.bol.gov.la/en/ExchangRate,2026-05-06,2026-05-07,Bank of the lao P.D.R,"buy, sell"
 Myanmar,2100.0,MMK,https://forex.cbm.gov.mm/index.php/fxrate/history,2026-05-06,2026-05-07,Central Bank of Myanmar,only one
 Pakistan,278.9,PKR,https://www.nbp.com.pk/RateSheetFiles/NBP-RateSheet-06-05-2026.pdf,2026-05-06,2026-05-07,National Bank of Pakistan,buy
@@ -698,3 +698,22 @@ Sri Lanka,319.7857,LKR,https://www.cbsl.gov.lk/en/rates-and-indicators/exchange-
 Egypt,52.697,EGP,https://www.cbe.org.eg/en/economic-research/statistics/cbe-exchange-rates/historical-data,2026-05-06,2026-05-07,Central bank of Egypt (CBE),buy sell
 Turkey,45.2024,TRY,https://www.tcmb.gov.tr/kurlar/202605/06052026.xml,2026-05-06,2026-05-07,Türkiye Cumhuriyet Merkez Bankası (TCMB),"Banknote(buy, sell)"
 Indonesia,17425.005,IDR,https://www.bi.go.id/en/statistik/informasi-kurs/transaksi-bi/Default.aspx,2026-05-06,2026-05-07,"bank indonesia, bank sentral republik indonesia","buy, sell"
+Brunei,1.2679,dollar,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+China,6.802,yuan,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+India,94.7759,rupee,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Japan,156.35,yen,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Malaysia,3.908,ringgit,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Philippines,61.377,peso,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Saudi Arabia,3.75,riyal,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Singapore,1.2679,dollar,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Thailand,32.266,baht,https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-05-31&reportType=REP,2026-05-07,2026-05-08,IMF,Mid-point
+Hong Kong,783.425,HKD,https://www.hkab.org.hk/en/rates/exchange-rates,2026-05-07,2026-05-08,The Hong Kong Association of Banks,"buy, sell"
+Cambodia,4011,KHR,https://www.tax.gov.kh/en/exchange-rate?for_year=2026&for_month=05,2026-05-07,2026-05-08,National Bank of Cambodia,Official Rate Riel
+Lao,21937.5,LAK,https://www.bol.gov.la/en/ExchangRate,2026-05-07,2026-05-08,Bank of the lao P.D.R,"buy, sell"
+Myanmar,2100.0,MMK,https://forex.cbm.gov.mm/index.php/fxrate/history,2026-05-07,2026-05-08,Central Bank of Myanmar,only one
+Pakistan,278.85,PKR,https://www.nbp.com.pk/RateSheetFiles/NBP-RateSheet-07-05-2026.pdf,2026-05-07,2026-05-08,National Bank of Pakistan,buy
+Vietnam,25113.0,VND,https://sbv.gov.vn/vi/t%E1%BB%B7-gi%C3%A1-tham-kh%E1%BA%A3o-gi%E1%BB%AFa-%C4%91%E1%BB%93ng-vi%E1%BB%87t-nam-v%C3%A0-c%C3%A1c-lo%E1%BA%A1i-ngo%E1%BA%A1i-t%E1%BB%87-t%E1%BA%A1i-c%E1%BB%A5c-qu%E1%BA%A3n-l%C3%BD-ngo%E1%BA%A1i-h%E1%BB%91i,2026-05-07,2026-05-08,SBV,"buy, sell"
+Sri Lanka,320.4515,LKR,https://www.cbsl.gov.lk/en/rates-and-indicators/exchange-rates/daily-indicative-usd-spot-exchange-rates,2026-05-07,2026-05-08,Central Bank of Sri Lanka,only one(USD->LKR)
+Egypt,52.697,EGP,https://www.cbe.org.eg/en/economic-research/statistics/cbe-exchange-rates/historical-data,2026-05-07,2026-05-08,Central bank of Egypt (CBE),buy sell
+Turkey,45.2154,TRY,https://www.tcmb.gov.tr/kurlar/202605/07052026.xml,2026-05-07,2026-05-08,Türkiye Cumhuriyet Merkez Bankası (TCMB),"Banknote(buy, sell)"
+Indonesia,17405.0,IDR,https://www.bi.go.id/en/statistik/informasi-kurs/transaksi-bi/Default.aspx,2026-05-07,2026-05-08,"bank indonesia, bank sentral republik indonesia","buy, sell"
